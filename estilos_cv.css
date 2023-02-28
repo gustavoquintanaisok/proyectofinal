@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Quicksand&family=Roboto&display=swap');
+
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body{
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+}
+.item1 h1{
+font-family:"Quicksand";
+padding:30px
+}
+div.conteiner1{
+    display:flex;
+    justify-content: center;
+    background-image: url(img/desk3.jpg);
+    background-size: cover;
+}
+.icono{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*-------------------------*/
+.conteiner3ycuarto{
+display: flex;
+flex-direction:row;
+align-items:center;
+justify-content: space-evenly;
+flex-wrap:wrap;
+}
+.conteiner3ycuarto img{
+        display: flex;
+        width: 400px;
+        padding:20px;
+    }
+
+
+.tittle{
+    color: rgb(0, 0, 0);
+    font-size:40px;
+    text-shadow:0 0 5px rgb(175, 155, 155);
+    padding: 30px;
+}
+
+a button{
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(255, 166, 0);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family:"Quicksand";
+    font-size: 30px;
+}
+button:active{
+    background-color: rgba(255, 255, 0, 0.993);
+}
+button:hover{
+    background-color: rgb(255, 217, 3);
+}
+.conteiner4{
+    display: flex;
+   background-color:  rgb(88, 88, 88);
+   justify-content:center;
+   justify-items: center;
+   
+    
+}
+h3{
+    font-size: 80px;
+    padding:10px;
+}
+
+footer{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.GRUPO1{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+a.itemA{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.itemB{
+    padding-left: 50px;
+}
+
+.conteiner2ymedio{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .conteiner3ycuarto img{
+        display: none;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Quicksand&family=Roboto&display=swap');
+
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body{
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+}
+.item1 h1{
+font-family:"Quicksand";
+padding:30px
+}
+button:active{
+    background-color: rgba(255, 255, 0, 0.993);
+}
+button:hover{
+    background-color: rgb(255, 217, 3);
+}
+div.conteiner1{
+    display:flex;
+    justify-content: center;
+    background-image: url(img/desk3.jpg);
+    background-size: cover;
+}
+.icono{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*-------------------------*/
+div.conteiner3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+div.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/street.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    width: 800px;
+    height: 500px;
+    align-content: space-between;
+}
+
+section{
+    
+    background-image: url(img/mesa.jpg);
+    width: 800px;
+    height: 600px;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 10px black;
+
+}
+section p{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    font-size: 30px;
+    font-family:"Parisienne";
+    color: rgb(0, 0, 0);
+
+}
+.conteiner2ymedio h3{
+    font-size: 40px;
+}
+h3{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+img.front{
+    height: 500px;
+    width: 400px;
+}
+
+.conteiner4{
+    display: flex;
+   background-color: rgb(88, 88, 88);
+   justify-content:center;
+   justify-items: center;
+   
+    
+}
+
+
+footer{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.GRUPO1{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.itemA{
+    padding: 10px;
+}
+.itemB{
+    padding-left: 50px;
+}
+
+.conteiner3ymedio{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    div.conteiner3{
+        display: none;
+    } 
+    }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    div.conteiner3{
+        display: none;
+    } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .conteiner3ymedio{
+        display:none;
+    }   
+    div.conteiner3{
+        display:inline;
+    } 
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .conteiner3ymedio{
+        display:none;
+    } 
+    div.conteiner3{
+        display:flex;
+    }   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.conteiner3ymedio{
+    display:none;
+}
+div.conteiner3{
+    display:flex;
+} 
+}
